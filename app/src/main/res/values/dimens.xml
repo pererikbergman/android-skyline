@@ -1,0 +1,4 @@
+<resources>
+    <!-- Splash screen fade out and in time -->
+    <integer name="anim_fade_time">300</integer>
+</resources>
