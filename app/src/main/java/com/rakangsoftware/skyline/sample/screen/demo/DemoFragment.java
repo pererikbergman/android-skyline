@@ -16,11 +16,6 @@ public class DemoFragment extends SkylineFragment<DemoPresenter, DemoViewModel> 
 
     }
 
-    @Override
-    public void onCreate(@Nullable final Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
-
     @Nullable
     @Override
     public View onCreateView(final LayoutInflater inflater, @Nullable final ViewGroup container, @Nullable final Bundle savedInstanceState) {
