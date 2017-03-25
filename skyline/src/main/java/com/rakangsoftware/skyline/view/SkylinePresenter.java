@@ -1,4 +1,4 @@
-package com.rakangsoftware.skyline.mvpvm;
+package com.rakangsoftware.skyline.view;
 
 /**
  * Created by pererikbergman on 2017-03-21.

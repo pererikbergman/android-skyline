@@ -1,6 +1,6 @@
 package com.rakangsoftware.skyline.sample.screen.demo;
 
-import com.rakangsoftware.skyline.mvpvm.SkylinePresenter;
+import com.rakangsoftware.skyline.view.SkylinePresenter;
 
 public class DemoPresenter implements SkylinePresenter {
 

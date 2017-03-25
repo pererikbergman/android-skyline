@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.rakangsoftware.skyline.mvpvm.SkylineFragment;
+import com.rakangsoftware.skyline.view.SkylineFragment;
 import com.rakangsoftware.skyline.sample.BR;
 import com.rakangsoftware.skyline.sample.R;
 import com.rakangsoftware.skyline.sample.databinding.FragmentDemoBinding;

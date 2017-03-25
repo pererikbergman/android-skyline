@@ -1,4 +1,4 @@
-package com.rakangsoftware.skyline.mvpvm;
+package com.rakangsoftware.skyline.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

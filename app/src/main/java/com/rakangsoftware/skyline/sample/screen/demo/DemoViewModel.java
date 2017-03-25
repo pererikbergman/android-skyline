@@ -4,7 +4,7 @@ import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 import android.os.Bundle;
 
-import com.rakangsoftware.skyline.mvpvm.SkylineViewModel;
+import com.rakangsoftware.skyline.view.SkylineViewModel;
 import com.rakangsoftware.skyline.sample.BR;
 
 public class DemoViewModel extends BaseObservable implements SkylineViewModel {
