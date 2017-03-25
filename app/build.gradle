@@ -31,5 +31,6 @@ dependencies {
     compile project(path: ':skyline')
     compile 'com.android.support:appcompat-v7:25.3.0'
     compile 'com.rakangsoftware.skyline:skyline:0.0.2'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.6'
     testCompile 'junit:junit:4.12'
 }
