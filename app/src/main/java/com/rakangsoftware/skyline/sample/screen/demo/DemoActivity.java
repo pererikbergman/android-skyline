@@ -10,6 +10,10 @@ import com.rakangsoftware.skyline.sample.R;
 
 public class DemoActivity extends AppCompatActivity {
 
+    public static void start(Context context) {
+        context.startActivity(new Intent(context, DemoActivity.class));
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,9 +30,5 @@ public class DemoActivity extends AppCompatActivity {
                 .beginTransaction()
                 .replace(R.id.fragment_container, fragment)
                 .commit();
-    }
-
-    public static void start(Context context) {
-        context.startActivity(new Intent(context, DemoActivity.class));
     }
 }

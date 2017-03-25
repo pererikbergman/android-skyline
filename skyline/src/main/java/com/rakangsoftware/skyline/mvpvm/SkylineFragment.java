@@ -61,4 +61,12 @@ public abstract class SkylineFragment<P extends SkylinePresenter, M extends Skyl
     protected abstract P createPresenter(final M viewModel);
 
     protected abstract M createViewModel();
+
+    public P getPresenter() {
+        return mPresenter;
+    }
+
+    public M getViewModel() {
+        return mViewModel;
+    }
 }

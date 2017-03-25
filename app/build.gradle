@@ -29,7 +29,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile project(path: ':skyline')
-    // compile 'com.rakangsoftware.skyline:skyline:0.0.1'
     compile 'com.android.support:appcompat-v7:25.3.0'
+    compile 'com.rakangsoftware.skyline:skyline:0.0.2'
     testCompile 'junit:junit:4.12'
 }
