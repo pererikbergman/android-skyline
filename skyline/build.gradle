@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/pererikbergman/android-skyline'
     gitUrl = 'https://github.com/pererikbergman/android-skyline.git'
 
-    libraryVersion = '0.0.3'
+    libraryVersion = '0.0.4'
 
     developerId = 'pererikbergman'
     developerName = 'Per-Erik Bergman'
