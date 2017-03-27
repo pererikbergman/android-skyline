@@ -14,32 +14,22 @@
  * limitations under the License.
  */
 
-package com.rakangsoftware.skyline.sample.screen.demo;
+package com.rakangsoftware.skyline.repository;
 
-import com.rakangsoftware.skyline.mvpvm.SkylinePresenter;
+import java.util.List;
 
-public class DemoPresenter implements SkylinePresenter {
+import io.reactivex.Observable;
 
-    private final DemoViewModel mViewModel;
+public interface Repository<T, K> {
 
-    public DemoPresenter(final DemoViewModel viewModel) {
-        mViewModel = viewModel;
-    }
+    Observable<List<T>> get();
 
-    /* Lifecycle */
+    Observable<T> getById(K id);
 
-    public void start() {
+    Observable<T> create(T entity);
 
-    }
+    Observable<T> update(T entity);
 
-    public void stop() {
-
-    }
-     
-    /* User interaction input from view. */
-
-    public void click() {
-        mViewModel.setText("Hello World!");
-    }
+    Observable<T> delete(T entity);
 
 }

@@ -1,1 +1,1 @@
-include ':app', ':skyline'
+include ':app', ':skyline', ':repository', ':presentation'

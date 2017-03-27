@@ -14,32 +14,12 @@
  * limitations under the License.
  */
 
-package com.rakangsoftware.skyline.sample.screen.demo;
+package com.rakangsoftware.skyline.mvpvm;
 
-import com.rakangsoftware.skyline.mvpvm.SkylinePresenter;
+import android.os.Bundle;
 
-public class DemoPresenter implements SkylinePresenter {
+public interface SkylineViewModel {
+    void setState(Bundle savedInstanceState);
 
-    private final DemoViewModel mViewModel;
-
-    public DemoPresenter(final DemoViewModel viewModel) {
-        mViewModel = viewModel;
-    }
-
-    /* Lifecycle */
-
-    public void start() {
-
-    }
-
-    public void stop() {
-
-    }
-     
-    /* User interaction input from view. */
-
-    public void click() {
-        mViewModel.setText("Hello World!");
-    }
-
+    Bundle getState();
 }
