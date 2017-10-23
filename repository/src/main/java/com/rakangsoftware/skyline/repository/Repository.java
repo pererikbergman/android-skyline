@@ -20,7 +20,9 @@ import java.util.List;
 
 import io.reactivex.Observable;
 
-public interface Repository<T, K> {
+public interface Repository<T, K, Params> {
+
+    Observable<List<T>> get(Params params);
 
     Observable<List<T>> get();
 

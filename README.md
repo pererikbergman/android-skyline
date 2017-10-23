@@ -10,6 +10,8 @@
 Skyline is a small set of libraries for helping mainly me in keeping the MVP-VM architecture.
 
 ## Project News 
+ * Just released version 0.1.1.
+    * Added get with params to the repository.
  * Just released version 0.1.0.
 
 ## Features
@@ -23,7 +25,7 @@ Import into your gradle project:
  ``` java
 dependencies {
     ...
-    compile 'com.rakangsoftware.skyline:skyline:0.1.0'
+    compile 'com.rakangsoftware.skyline:skyline:0.1.1'
     ...
 }
 ```
@@ -32,7 +34,7 @@ Or for the presentation only:
  ``` java
 dependencies {
     ...
-    compile 'com.rakangsoftware.skyline:presentation:0.1.0'
+    compile 'com.rakangsoftware.skyline:presentation:0.1.1'
     ...
 }
 ```
@@ -41,7 +43,7 @@ Or for the repository only:
  ``` java
 dependencies {
     ...
-    compile 'com.rakangsoftware.skyline:repository:0.1.0'
+    compile 'com.rakangsoftware.skyline:repository:0.1.1'
     ...
 }
 ```
