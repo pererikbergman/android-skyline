@@ -27,7 +27,7 @@ task clean(type: Delete) {
 }
 
 ext {
-    libraryVersion = '0.1.1'
+    libraryVersion = '0.1.2'
 }
 
 import org.ajoberstar.gradle.git.tasks.GitTag
